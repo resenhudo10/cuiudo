@@ -1,0 +1,86 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+    background-color: #edf7f6;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  background-color: #2aa198;
+  padding: 15px;
+  color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 6px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+#xname {
+  width: 100%;
+  height: 80px;
+}
+
+div {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 40px 0;
+}
+
+form {
+  background-color: white;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 250px;
+}
+
+h3 {
+  color: white;
+  background-color:#2aa198;
+  text-align: center;
+  padding: 10px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#mail {
+  width: 95%;
+}
+
+#fname {
+  width: 95%;
+}
+
+#aa {
+  padding: 10px;
+  background-color: #2aa198;
+  color: white;
+  font-size: 17px;
+  width: 100%;
+  margin-top: 20px;
+  border: none;
+  box-sizing: border-box;
+}
+
+footer {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 350px;
+}
